@@ -1,0 +1,56 @@
+{
+  "id": "d00-diagnosis",
+  "title": "本の選び方診断",
+  "category": "ライフスタイル",
+  "description": "本を選ぶときのクセから、あなたの「選び方タイプ」が分かります。",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "本屋で、まず何を見る？",
+      "choices": [
+        {
+          "id": "q1-1",
+          "text": "表紙やタイトルの第一印象",
+          "scoreTo": "result-a"
+        },
+        { "id": "q1-2", "text": "あらすじや目次", "scoreTo": "result-b" }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": "気になる本を見つけたら？",
+      "choices": [
+        {
+          "id": "q2-1",
+          "text": "レビューや評判を調べてから決める",
+          "scoreTo": "result-b"
+        },
+        { "id": "q2-2", "text": "その場で買う", "scoreTo": "result-a" }
+      ]
+    },
+    {
+      "id": "q3",
+      "text": "買った本は、どう読む？",
+      "choices": [
+        {
+          "id": "q3-1",
+          "text": "その日の気分で選んで読む",
+          "scoreTo": "result-a"
+        },
+        { "id": "q3-2", "text": "読む順番を決めて読む", "scoreTo": "result-b" }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "id": "result-a",
+      "title": "ピンとくる直感タイプ",
+      "description": "出会いの第一印象を大切にして、気持ちが動いた本を選べるタイプです。思いがけない一冊との出会いを楽しめます。"
+    },
+    {
+      "id": "result-b",
+      "title": "じっくり比較タイプ",
+      "description": "内容や評判を確かめて、納得してから選べるタイプです。選んだ本を、安心して楽しめます。"
+    }
+  ]
+}
